@@ -1,6 +1,6 @@
 function arrayIgual(lista){
     todosIguais = true
-    lista.push(lista[0])
+    
     for (let x in lista){
         if (lista[x] !== lista[0]){
             todosIguais = false
